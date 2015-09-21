@@ -26,9 +26,31 @@
     height: 21px;
     margin: 5px 0 0 0;
 }
+.head .cart-icon{
+    display: inline-block;
+    background: url("../img/cart.png") no-repeat;
+    width: 27px;
+    height: 20px;
+    margin: 5px 0 0 0;
+    position: relative;
+}
+
+.head .cart-icon .count{
+    background: #ff0000;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 0.688em;
+    height: 14px;
+    line-height: 1;
+    position: absolute;
+    right: -5px;
+    text-align: center;
+    top: -5px;
+    width: 14px;
+}
 
 
-/* =Head
+/* =Font
 -------------------------------------------------------------- */
 @font-face {
     font-family: 'helveticaneuecyrmedium';
@@ -72,10 +94,29 @@ body{
     display: table;
 }
 
-.fav-empty p{
-    display: table-cell;
+.fav-empty .text{
+    position: absolute;
+    top: 50%;
+}
+
+
+.center-area {
+    /* let it fill the whole container */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.center-area:before {
+    content: '';
+    display: inline-block;
     vertical-align: middle;
-    text-align:center;
+    height: 100%;
+}
+.centered {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /* =Home Page
