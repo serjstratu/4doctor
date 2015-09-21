@@ -151,5 +151,27 @@ body{
     font-weight: 100;
 }
 
+/* =Category Page
+-------------------------------------------------------------- */
+.product-item{
+    width: 50%;
+    float: left;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    position: relative;
+}
+
+.product-item .img{
+
+}
+
+.product-item .price{
+
+}
+
+.product-item .title {
+
+}
+
 /* =Cart Page
 -------------------------------------------------------------- */
