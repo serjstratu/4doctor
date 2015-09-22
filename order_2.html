@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <script src="js/vendor/modernizr.js"></script>
+
 </head>
 <body>
 
@@ -30,48 +31,64 @@
 
     <!--content-->
     <div class="content">
-        <div class="row">
-            <div class="small-11 small-centered columns">
-                <form action="#" method="post">
-                    <span class="">СТРАНА</span>
-                    <select id="country_select" name="country_select">
-                        <option value="0">Страна</option>
-                        <option value="1">Россия</option>
-                        <option value="2">Беларусь</option>
-                        <option value="3">Казахстан</option>
-                        <option value="4">Украина</option>
-                        <option value="5">Молдавия</option>
-                    </select>
+        <div class="order-form">
+            <div class="row">
+                <div class="small-11 small-centered columns">
+                    <form action="#" method="post">
+                        <div class="form-line">
+                            <span class="select-title">СТРАНА</span>
+                            <select id="country_select" name="country_select">
+                                <option value="0">Страна</option>
+                                <option value="1">Россия</option>
+                                <option value="2">Беларусь</option>
+                                <option value="3">Казахстан</option>
+                                <option value="4">Украина</option>
+                                <option value="5">Молдавия</option>
+                            </select>
+                        </div>
 
-                    <span class="">ГОРОД</span>
-                    <select id="city_select" name="city_select">
-                        <option value="0">Страна</option>
-                        <option value="1">Россия</option>
-                        <option value="2">Беларусь</option>
-                        <option value="3">Казахстан</option>
-                        <option value="4">Украина</option>
-                        <option value="5">Молдавия</option>
-                    </select>
-                </form>
+                        <div class="form-line">
+                            <span class="select-title">ГОРОД</span>
+                            <select id="city_select" name="city_select">
+                                <option value="0">Страна</option>
+                                <option value="1">Россия</option>
+                                <option value="2">Беларусь</option>
+                                <option value="3">Казахстан</option>
+                                <option value="4">Украина</option>
+                                <option value="5">Молдавия</option>
+                            </select>
+                        </div>
 
+
+                    </form>
+
+                </div>
             </div>
         </div>
+
     </div>
 </div>
 
 <div class="customer-info">
-    Покупатель:
-    Эл. почта:
-    Моб. телефон
+    <div class="row">
+        <div class="small-6 columns">
+            <p>Покупатель:</p>
+            <p>Эл. почта:</p>
+            <p>Моб. телефон</p>
+        </div>
+        <div class="small-6 columns">
+            <p>Иван Петрович</p>
+            <p>ivan@mail.ru</p>
+            <p>8 (985) 322-90-89</p>
+        </div>
+    </div>
 
-    Иван Петрович
-    ivan@mail.ru
-    8 (985) 322-90-89
 </div>
 
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
+<script src="js/custom.js"></script>
 <script>
     $(document).foundation();
 </script>
