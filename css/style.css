@@ -196,6 +196,21 @@ select{
     position: absolute;
 }
 
+/* =Cart Page
+-------------------------------------------------------------- */
+.product-cart-item{
+    width: 100%;
+}
+
+.product-cart-item .info{
+
+}
+
+.product-cart-item .info{
+
+}
+
+
 /* =order Page
 -------------------------------------------------------------- */
 .order-form{
