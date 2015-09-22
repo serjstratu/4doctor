@@ -1,5 +1,3 @@
-
-
 $(function(){
     $("#city_select").hide();  // By default use jQuery to hide the second modal
 
