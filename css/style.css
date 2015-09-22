@@ -181,6 +181,10 @@ body{
     font-weight: 100;
 }
 
+.product-item .fav-icon{
+    position: absolute;
+}
+
 /* =order Page
 -------------------------------------------------------------- */
 .order-form{
