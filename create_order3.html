@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+
+<div class="wrap">
+    <!--head-->
+    <header class="head">
+        <div class="row">
+            <div class="small-2 columns">
+                <a href="#" class="back" onClick="history.go(-1)">
+                </a>
+            </div>
+            <div class="small-8 columns">
+                <h2 class="title">Метод доставки</h2>
+            </div>
+            <div class="small-2 columns">
+                &nbsp;
+            </div>
+        </div>
+    </header>
+    <!--/head-->
+
+    <!--content-->
+    <div class="content">
+        <div class="radio-form">
+            <div class="row">
+                <div class="small-11 small-centered columns">
+                    <form action="#" method="post">
+                        <div class="line">
+                            <div class="row">
+                                <div class="small-2 columns">
+                                    <input type="radio" name="paymnent" value="pickup" id="pickup">
+                                </div>
+                                <div class="small-10 columns">
+                                    <label for="pickup">Самовывоз — <em>0 руб.</em><span>Москва, метро Кропоткинская,<br/>
+                                    Болотная набережная 7/3<br/>
+                                    шоурум 4doctors</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div class="row">
+                                <div class="small-2 columns">
+                                    <input type="radio" name="paymnent" value="cash" id="cash">
+                                </div>
+                                <div class="small-10 columns">
+                                    <label for="cash">Курьером — <em>300 руб.</em><span>по Москве в рабочие дни<br/>
+                                    с 10:00 до 18:00</span></label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="customer-info">
+
+        </div>
+
+    </div>
+    <!--content-->
+</div>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+
+</script>
+</body>
+</html>

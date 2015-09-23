@@ -243,6 +243,28 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 
 }
 
+
+.radio-form{
+
+}
+
+.radio-form .line{
+    margin-top: 1em;
+}
+
+.radio-form .line label{
+    font-weight: bold;
+}
+
+.radio-form .line label span{
+    font-weight: normal;
+    display: block;
+}
+
+.radio-form .line label em{
+    color: #333333;
+}
+
 /* =Pay Page
 -------------------------------------------------------------- */
 .form-pay{
