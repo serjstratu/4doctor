@@ -95,13 +95,18 @@ select{
     border:1px solid #000;
 }
 
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea{
+    border: 1px solid #000000;
+}
+
 
 .button, .button{
     width: 100%;
     margin: 0;
 }
 
-
+/* =Favorite Page
+-------------------------------------------------------------- */
 .fav-empty{
     text-align: center;
     font-size: 0.875em;
@@ -144,6 +149,10 @@ select{
 .wrap{
     width: 100%;
     height: 100%;
+}
+
+.bg-grey{
+    background: #f8f8f8;
 }
 
 /* =Home Page
@@ -226,6 +235,20 @@ select{
 
 }
 
+/* =Pay Page
+-------------------------------------------------------------- */
+.form-pay{
+    background: #f8f8f8;
+}
+
+.form-pay .line{
+    margin-top: 1em;
+}
+
+.form-pay .line span{
+    font-size: 0.625em;
+}
+
 /* =Bottom block
 -------------------------------------------------------------- */
 .bottom{
@@ -238,4 +261,5 @@ select{
 .select-title{
     position: absolute;
 }
+
 

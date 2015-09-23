@@ -10,8 +10,74 @@
 </head>
 <body>
 
-<div class="wrap">
+<div class="wrap bg-grey">
+    <!--head-->
+    <header class="head">
+        <div class="row">
+            <div class="small-2 columns">
+                <a href="#back" class="back">
+                </a>
+            </div>
+            <div class="small-8 columns">
+                <div class="logo">
+                    <h2 class="title">Оплата картой</h2>
+                </div>
+            </div>
+            <div class="small-2 columns">
+                &nbsp;
+            </div>
+        </div>
+    </header>
+    <!--/head-->
 
+    <!--content-->
+    <div class="content">
+        <div class="form-pay">
+            <div class="row">
+                <div class="small-11 small-centered columns">
+                    <form action="#" method="post">
+                        <div class="line">
+                            <input type="text" name="card-number" placeholder="Номер карты" />
+                        </div>
+
+                        <div class="line">
+
+                            <div class="row">
+                                <div class="small-6 columns">
+                                    <span>Срок годности</span>
+                                </div>
+                                <div class="small-6 columns text-right">
+                                    <span>CVV/CVC</span>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="small-3 columns">
+                                    <input type="text" placeholder="ММ" />
+                                </div>
+                                <div class="small-3 columns">
+                                    <input type="text" placeholder="ГГ" />
+                                </div>
+                                <div class="small-3 columns">&nbsp;</div>
+                                <div class="small-3 columns">
+                                    <input type="text" placeholder="ГГ" />
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="line">
+                            <span>Как на карте</span>
+                            <input type="text" name="card-number" placeholder="Держатель карты" />
+                        </div>
+
+
+                        <button>ОПЛАТИТЬ 6000 руб</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--content-->
 </div>
 
 <script src="js/vendor/jquery.js"></script>
