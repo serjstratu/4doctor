@@ -18,10 +18,43 @@ body{
 }
 
 
+/* =Form Styles
+-------------------------------------------------------------- */
+select{
+    border:1px solid #000;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea{
+    border: 1px solid #000000;
+    background: #FFFFFF;
+}
+
+
+.button, .button{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    height: 2.625em;
+}
+
+.btn-primary{
+    background: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.btn-white{
+    border: 4px solid #ffffff;
+    background: transparent;
+}
+
+
 /* =Head
 -------------------------------------------------------------- */
 .head{
-    position: relative;
+    position: fixed;
     width: 100%;
     background: #000;
     z-index: 999;
@@ -75,29 +108,7 @@ body{
 
 
 
-/* =Form Styles
--------------------------------------------------------------- */
-select{
-    border:1px solid #000;
-}
 
-input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea{
-    border: 1px solid #000000;
-    background: #FFFFFF;
-}
-
-
-.button, .button{
-    width: 100%;
-    margin: 0;
-}
-
-.btn-primary{
-    background: transparent;
-    border: 1px solid #000000;
-    color: #000000;
-    text-transform: uppercase;
-}
 
 /* =Favorite Page
 -------------------------------------------------------------- */
@@ -153,8 +164,10 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 -------------------------------------------------------------- */
 .home-page{
     background: #F5A623;
-    overflow: hidden;
     height: 100%;
+    overflow-x: auto;
+    padding-top: 40px;
+    position: relative;
 }
 
 .home-page .item{
@@ -179,6 +192,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
    color: #1D1201;
     font-size: 0.813em;
     font-weight: 100;
+    margin-top: 0.225em;
+}
+
+.home-btn{
+    margin-top: 1.875em;
 }
 
 /* =Category Page
