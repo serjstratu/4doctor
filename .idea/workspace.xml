@@ -2,34 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0e7d258-ff09-4682-b436-cf3d6e847127" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-light-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-light-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-light-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-medium-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-medium-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-medium-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-medium-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-roman-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-roman-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-roman-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-roman-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-thin-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-thin-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-thin-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-thin-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-light-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-medium-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-roman-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helveticaneuecyr-thin-webfont.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/helvetica-neue-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/helvetica-neue-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/helvetica-neue-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/helvetica-neue-webfont.woff" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category.html" afterPath="$PROJECT_DIR$/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fb-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/vk-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/whatup-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_order2.html" afterPath="$PROJECT_DIR$/create_order2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_order3.html" afterPath="$PROJECT_DIR$/create_order3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_order_curier.html" afterPath="$PROJECT_DIR$/create_order_curier.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/item_detail.html" afterPath="$PROJECT_DIR$/item_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay_card.html" afterPath="$PROJECT_DIR$/pay_card.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order_1.html" afterPath="$PROJECT_DIR$/order_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order_2.html" afterPath="$PROJECT_DIR$/order_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -52,21 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.25">
-              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="item_detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="-26.25">
+              <caret line="73" column="66" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -75,48 +46,78 @@
       <file leaf-file-name="pay_card.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pay_card.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.625">
+            <state vertical-scroll-proportion="9.375">
               <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fav_with_items.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fav_with_items.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.5">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fav_empty.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fav_empty.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fav_empty.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-36.875">
+            <state vertical-scroll-proportion="1.4266918">
               <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/category.html">
+      <file leaf-file-name="order_2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
+            <state vertical-scroll-proportion="-22.5">
+              <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create_order3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_order3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.0">
+              <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1870503">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            <state vertical-scroll-proportion="-17.666666">
+              <caret line="407" column="20" selection-start-line="407" selection-start-column="20" selection-end-line="407" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_order2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_order2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.625">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_order_curier.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_order_curier.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.3529412">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,8 +126,8 @@
       <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="70" />
+            <state vertical-scroll-proportion="-28.125">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="93" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -140,20 +141,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/order_1.html" />
         <option value="$PROJECT_DIR$/cart.html" />
         <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$PROJECT_DIR$/create_order_curier.html" />
         <option value="$PROJECT_DIR$/create_order.html" />
-        <option value="$PROJECT_DIR$/create_order2.html" />
-        <option value="$PROJECT_DIR$/create_order3.html" />
-        <option value="$PROJECT_DIR$/order_2.html" />
         <option value="$PROJECT_DIR$/fav_empty.html" />
         <option value="$PROJECT_DIR$/fav_with_items.html" />
-        <option value="$PROJECT_DIR$/item_detail.html" />
         <option value="$PROJECT_DIR$/category.html" />
         <option value="$PROJECT_DIR$/pay_card.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/item_detail.html" />
+        <option value="$PROJECT_DIR$/order_1.html" />
+        <option value="$PROJECT_DIR$/create_order_curier.html" />
+        <option value="$PROJECT_DIR$/create_order2.html" />
+        <option value="$PROJECT_DIR$/create_order3.html" />
+        <option value="$PROJECT_DIR$/order_2.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -222,20 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4doctors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4doctors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,7 +358,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443028655269</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="font helvetica support cyr">
+      <created>1443033442271</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1443033442271</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -448,7 +441,8 @@
     <MESSAGE value="radio grup" />
     <MESSAGE value="helvetica font" />
     <MESSAGE value="home page fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page fixes" />
+    <MESSAGE value="font helvetica support cyr" />
+    <option name="LAST_COMMIT_MESSAGE" value="font helvetica support cyr" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -487,34 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/category.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75">
           <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay_card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -527,14 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fav_empty.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.875">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-26.25">
@@ -543,10 +505,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1170" column="0" selection-start-line="1170" selection-start-column="0" selection-end-line="1173" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.625">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_order_curier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3529412">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.125">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="93" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.25">
+          <caret line="73" column="66" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay_card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_order2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_order3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.0">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.5">
+          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1870503">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        <state vertical-scroll-proportion="-17.666666">
+          <caret line="407" column="20" selection-start-line="407" selection-start-column="20" selection-end-line="407" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fav_empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4266918">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -63,6 +63,10 @@ body{
     font-size: 1em;
 }
 
+p{
+    line-height: 1;
+}
+
 
 /* =Form Styles
 -------------------------------------------------------------- */
@@ -84,6 +88,10 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus
     border: 1px solid #7ED321;
 }
 
+textarea {
+    min-height: 100px;
+}
+
 button, .button{
     width: 100%;
     margin: 0;
@@ -96,8 +104,18 @@ button, .button{
     margin: 0;
     padding: 0;
     font-size: 1em;
+    line-height: 2.625em;
     height: 2.625em;
 }
+
+
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: transparent;
+}
+button:hover, button:focus, .button:hover, .button:focus {
+    color: #666666;
+}
+
 
 .btn-primary{
     background: transparent;
@@ -109,6 +127,10 @@ button, .button{
 .btn-white{
     border: 4px solid #ffffff;
     background: transparent;
+}
+
+.yellow-button{
+    background: #F5A623;
 }
 
 
@@ -324,13 +346,22 @@ button, .button{
     margin-top: 1em;
 }
 
+.radio-form .line input[type="radio"]{
+    vertical-align: top;
+    margin: 0.725em 0 0;
+}
+
 .radio-form .line label{
-    font-weight: bold;
+    font-family: 'helveticaneuecyrroman';
+    font-size: 0.938em;
+    color: #000000;
 }
 
 .radio-form .line label span{
     font-weight: normal;
     display: block;
+    color: #4A4A4A;
+    font-size: 0.813em;
 }
 
 .radio-form .line label em{
@@ -354,6 +385,52 @@ button, .button{
 
 .order-info{
     
+}
+
+.order-info .left{
+    width: 50%;
+    display: inline-block;
+    padding-right: 0.5em;
+    text-align: right;
+    font-family: 'helveticaneuecyrlight';
+}
+.order-info .right{
+    width: 50%;
+    display: inline-block;
+    padding-left: 0.5em;
+    text-align: left;
+    font-family: 'helveticaneuecyrroman';
+}
+
+.order-info .left p, .order-info .right p{
+    margin: 0;
+    font-size: 0.813em;
+    line-height: 1.2;
+}
+
+/* =Product description
+-------------------------------------------------------------- */
+.product-item-description{
+
+}
+
+.product-item-description .description-area{
+
+}
+
+.product-item-description .description-area h3{
+    font-size: 1.125em;
+    font-family: 'helveticaneuecyrmedium';
+}
+
+.product-item-description .description-area p{
+    font-size: 0.813em;
+    font-family: 'helveticaneuecyrlight';
+}
+
+.product-item-description .description-area ul li{
+    font-size: 0.813em;
+    font-family: 'helveticaneuecyrlight';
 }
 
 /* =Bottom block
