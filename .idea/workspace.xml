@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0e7d258-ff09-4682-b436-cf3d6e847127" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create_order2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create_order3.html" />
-      <change type="DELETED" beforePath="E:\4doctor\create_order.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helvetica-neue-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helvetica-neue-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helvetica-neue-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/helvetica-neue-webfont.svg" />
+      <change type="DELETED" beforePath="E:\4doctor\fonts\helveticaneuecyr-medium-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\4doctor\fonts\helveticaneuecyr-medium-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\4doctor\fonts\helveticaneuecyr-medium-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\4doctor\fonts\helveticaneuecyr-medium-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\4doctor\fonts\helveticaneuecyr-medium-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="E:\4doctor\fonts\helveticaneuecyr-roman-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\4doctor\fonts\helveticaneuecyr-roman-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\4doctor\fonts\helveticaneuecyr-roman-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\4doctor\fonts\helveticaneuecyr-roman-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\4doctor\fonts\helveticaneuecyr-roman-webfont.woff2" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -97,21 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_order3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create_order3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_order3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1818181">
+            <state vertical-scroll-proportion="-19.76923">
               <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="264" column="19" selection-start-line="264" selection-start-column="19" selection-end-line="264" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.43441227">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -147,8 +158,8 @@
         <option value="$PROJECT_DIR$/order_2.html" />
         <option value="$PROJECT_DIR$/create_order.html" />
         <option value="$PROJECT_DIR$/create_order2.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/create_order3.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -231,6 +242,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4doctors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4doctor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -248,6 +273,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\4doctor\fonts" />
       <recent name="$PROJECT_DIR$/sketchs" />
     </key>
   </component>
@@ -338,7 +364,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443007870716</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="radio grup">
+      <created>1443012286571</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1443012286571</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -403,7 +435,8 @@
     <MESSAGE value="order_2 html changes" />
     <MESSAGE value="pay-card page" />
     <MESSAGE value="create-order-curier page" />
-    <option name="LAST_COMMIT_MESSAGE" value="create-order-curier page" />
+    <MESSAGE value="radio grup" />
+    <option name="LAST_COMMIT_MESSAGE" value="radio grup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -634,18 +667,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/create_order3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="264" column="19" selection-start-line="264" selection-start-column="19" selection-end-line="264" selection-end-column="19" />
+        <state vertical-scroll-proportion="-19.76923">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_order3.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1818181">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43441227">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding />
         </state>
       </provider>
