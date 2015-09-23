@@ -265,6 +265,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     font-size: 0.625em;
 }
 
+
+.order-info{
+    
+}
+
 /* =Bottom block
 -------------------------------------------------------------- */
 .bottom{
