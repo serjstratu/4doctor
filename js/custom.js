@@ -1,3 +1,14 @@
+var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    slidesPerView: 1,
+    paginationClickable: true,
+    spaceBetween: 30,
+    loop: true
+});
+
+
 $(function(){
     $("#city_select").hide();  // By default use jQuery to hide the second modal
 

@@ -33,16 +33,24 @@
 
         <div class="product-item-description">
 
+            <div class="scroll">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/category-item1.png" /> </div>
+                        <div class="swiper-slide"><img src="img/category-item1.png" /></div>
+                        <div class="swiper-slide"><img src="img/category-item1.png" /></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="small-12 columns">
 
-                    <div class="">
-                        <div id="imgs">
-                            <img src="https://lh4.googleusercontent.com/_D9-nzLCi9qU/TNQ2hYNqQEI/AAAAAAAADtI/TcqCdc6N26A/s500/twick_pool_stairs~.jpg"/>
-                            <img src="https://lh6.googleusercontent.com/_D9-nzLCi9qU/TNQ2gdP8JYI/AAAAAAAADtI/NU2WBbaXpgU/s500/twick_pool_stairsAndChanginRoom~.jpg"/>
-                            <img src="https://lh4.googleusercontent.com/_D9-nzLCi9qU/TNQ2UWpqLgI/AAAAAAAADtI/-OG4z6RxHwA/s500/twick_pool_hall~.jpg"/>
-                        </div>
-                    </div>
 
                     <div class="info-area">
 
@@ -57,7 +65,11 @@
                     </div>
                     <div class="description-area">
                         <h3>Описание</h3>
-                        <p>Топ хирургический женский с округленным  вырезом. Топ с рельефными швами спереди  и двойной прострочкой швов.  Два накладных  кармана спереди. Ткань обработана по  технологии Certainty.</p>
+
+                        <p>Топ хирургический женский с округленным  вырезом. Топ с рельефными швами спереди  и двойной
+                            прострочкой швов. Два накладных  кармана спереди. Ткань обработана по  технологии
+                            Certainty.</p>
+
                         <h3>Состав</h3>
                         <ul>
                             <li>70% хлопок</li>
@@ -90,116 +102,11 @@
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
 
-<script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script src="js/custom.js"></script>
 <style>
-    #content {
-        height: 340px;
-        width: 500px;
-        overflow: hidden;
-        position: relative;
-        border: 1px solid black;
-    }
 
-    #imgs {
-        float: left;
-        display: inline;
-        padding: 0;
-        margin: 0;
-        width: 1510px;
-
-        transition-property: transform;
-        transition-duration: 0.5s;
-        transition-timing-function: ease-out;
-
-        /*apply a transform to kick in the hardware acceleration.  Without this, the first
-        time we add the transform you get odd rendering of the divs (half missing) */
-        transform: translate(0, 0);
-    }
-
-    #imgs img {
-        padding: 0;
-        margin: 0;
-        width: 500px;
-        height: 340px;
-
-        /*apply a transform to kick in the hardware acceleration.  Without this, the first
-        time we add the transform you get odd rendering of the divs (half missing) */
-        transform: translate(0, 0);
-    }
 </style>
-
-<script id='code_1'>
-    var IMG_WIDTH = 500;
-    var currentImg = 0;
-    var maxImages = 3;
-    var speed = 500;
-
-    var imgs;
-
-    var swipeOptions = {
-        triggerOnTouchEnd: true,
-        swipeStatus: swipeStatus,
-        allowPageScroll: "vertical",
-        threshold: 75
-    };
-
-    $(function () {
-        imgs = $("#imgs");
-        imgs.swipe(swipeOptions);
-    });
-
-
-    /**
-     * Catch each phase of the swipe.
-     * move : we drag the div
-     * cancel : we animate back to where we were
-     * end : we animate to the next image
-     */
-    function swipeStatus(event, phase, direction, distance) {
-        //If we are moving before swipe, and we are going L or R in X mode, or U or D in Y mode then drag.
-        if (phase == "move" && (direction == "left" || direction == "right")) {
-            var duration = 0;
-
-            if (direction == "left") {
-                scrollImages((IMG_WIDTH * currentImg) + distance, duration);
-            } else if (direction == "right") {
-                scrollImages((IMG_WIDTH * currentImg) - distance, duration);
-            }
-
-        } else if (phase == "cancel") {
-            scrollImages(IMG_WIDTH * currentImg, speed);
-        } else if (phase == "end") {
-            if (direction == "right") {
-                previousImage();
-            } else if (direction == "left") {
-                nextImage();
-            }
-        }
-    }
-
-    function previousImage() {
-        currentImg = Math.max(currentImg - 1, 0);
-        scrollImages(IMG_WIDTH * currentImg, speed);
-    }
-
-    function nextImage() {
-        currentImg = Math.min(currentImg + 1, maxImages - 1);
-        scrollImages(IMG_WIDTH * currentImg, speed);
-    }
-
-    /**
-     * Manually update the position of the imgs on drag
-     */
-    function scrollImages(distance, duration) {
-        imgs.css("transition-duration", (duration / 1000).toFixed(1) + "s");
-
-        //inverse the number we set in the css
-        var value = (distance < 0 ? "" : "-") + Math.abs(distance).toString();
-        imgs.css("transform", "translate(" + value + "px,0)");
-    }
-</script>
-
 <script>
     $(document).foundation();
 
