@@ -11,14 +11,22 @@ $(function(){
     });
 });
 
-function modify_qty(val) {
-    var qty = document.getElementById('qty').value;
-    var new_qty = parseInt(qty,10) + val;
 
-    if (new_qty < 0) {
-        new_qty = 0;
+$(".quantity").on("click", function () {
+
+    var $button = $(this);
+    var oldValue = $button.closest('.sp-quantity').find("input.quntity-input").val();
+
+    if ($button.text() == "+") {
+        var newVal = parseFloat(oldValue) + 1;
+    } else {
+        // Don't allow decrementing below zero
+        if (oldValue > 0) {
+            var newVal = parseFloat(oldValue) - 1;
+        } else {
+            newVal = 0;
+        }
     }
+    $button.closest('.sp-quantity').find("input.quntity-input").val(newVal);
 
-    document.getElementById('qty').value = new_qty;
-    return new_qty;
-}
+});
