@@ -457,6 +457,11 @@ button:hover, button:focus, .button:hover, .button:focus {
     line-height: 1.2;
 }
 
+.order-info .center{
+    margin-top: 1em;
+    text-align: center;
+}
+
 /* =Product description
 -------------------------------------------------------------- */
 .product-item-description{
